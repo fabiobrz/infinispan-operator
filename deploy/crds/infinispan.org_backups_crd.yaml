@@ -86,8 +86,8 @@ spec:
             reason: 
               description: "Reason indicates the reason for any backup related failures."
               type: string
-          required: 
-            - phase
+#          required: 
+#            - phase
           type: object
       type: object
   version: v2alpha1
