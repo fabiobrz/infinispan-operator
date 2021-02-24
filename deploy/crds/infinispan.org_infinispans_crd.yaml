@@ -3,6 +3,7 @@ kind: CustomResourceDefinition
 metadata:
   name: infinispans.infinispan.org
 spec:
+  preserveUnknownFields: false
   group: infinispan.org
   names:
     kind: Infinispan
